@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+<% require 'uuid'%>
+one:
+  private: <%= UUID.new.generate%>
+  publickey: demoforintime
+  status: 1
+  desc: MyString
+
+two:
+  private: MyString
+  publickey: MyString
+  status: 1
+  desc: MyString
